@@ -1,0 +1,89 @@
+body {
+    background-image: url('https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3440.jpg' );
+   
+  
+    text-align: center;
+      font-size: 200%;
+      font-family: cursive;
+      
+  }
+
+  header{
+    background-color: rgb(113, 218, 228);
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+   
+  }
+  h1{
+    text-shadow: 2px 2px 8px;
+    color: rgb(0, 0, 0);
+    
+  }
+  
+  
+  .container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      flex-direction: row;
+  }
+  
+  .item {
+      border: 2px solid brown;
+      padding: 20px;
+      margin: 20px;
+      text-align: center;
+      text-decoration: none;
+      max-width: 250px;
+  }
+  img{
+    max-width: 150px;
+    max-height: 150px;
+  }
+  
+  .title {
+      color: #333;
+      font-size: 20px;
+      text-decoration: none; 
+  }
+  
+  .item img {
+      max-width: 100%;
+      height: auto;
+      width: auto;
+  }
+  
+  button {
+      background-color: orange;
+      color: white;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 14px;
+  }
+  footer{
+    background-color: gainsboro;
+    color: rgb(0, 0, 1);
+    position: sticky;
+    padding: 1px;
+    margin: auto;
+    font-style: inherit;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+  
+  
+  .text {
+      margin-left: auto;
+      font-size: 20px;
+      text-decoration: none; 
+  }
+  
+  .price {
+      font-family: bold;
+      text-decoration: none;
+      font-size: 20px;
+  }
+  .button:hover{
+    color:back;
+  }
